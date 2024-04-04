@@ -15,9 +15,9 @@ const Shortner = () => {
     const options = {
       method: 'POST',
       headers: {
-        'content-type': 'application/x-www-form-urlencoded',
-        'X-RapidAPI-Key': 'e65eee346fmsh296f32e783b480ep173c12jsn60cc60a62fbf',
-        'X-RapidAPI-Host': 'url-shortener-service.p.rapidapi.com'
+        'content-type': 'YOUR_INFO',
+        'X-RapidAPI-Key': 'YOUR_API_KEY',
+        'X-RapidAPI-Host': 'YOUR_API_HOST'
       },
       body: new URLSearchParams({
         url: inputUrl
