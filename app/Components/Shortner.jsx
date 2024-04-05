@@ -46,7 +46,7 @@ const Shortner = () => {
       <div className='flex flex-row mt-5 '>
         <input 
           type='text' 
-          className='text-black border border-black rounded-l-lg p-1 min-w-96 sm:max-w-96 mb-2' 
+          className='text-black border border-black rounded-l-lg p-1 lg:min-w-96 sm:min-w-72 mb-2' 
           placeholder='Enter the URL'
           value={inputUrl}
           onChange={handleChange}
@@ -64,7 +64,7 @@ const Shortner = () => {
         {shortenedUrl && (
           <input 
             type='text' 
-            className='text-black border border-black rounded-lg p-1 text-center min-w-96 sm:max-w-96 mb-14' 
+            className='text-black border border-black rounded-lg p-1 text-center lg:min-w-96 sm:min-w-72 mb-14' 
             placeholder='Shortened URL'
             value={shortenedUrl}
             readOnly
